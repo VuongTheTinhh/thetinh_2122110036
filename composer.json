@@ -1,0 +1,23 @@
+{
+    "name": "vuongthetinh/shop-cong-nghe",
+    "description": "Học lập trình với thầy Lợi",
+    "authors": [
+        {
+            "name": "VuongTheTinh",
+            "email": "vuongthetinh2811@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\":"app/"
+        },
+        "files": [
+            "./app/Route.php",
+            "./config/database.php"
+        ]
+    },
+    "require": {
+        "illuminate/events": "^10.28",
+        "illuminate/database": "^10.28"
+    }
+}
